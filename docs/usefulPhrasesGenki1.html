@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
   <head>
     <meta charset="UTF-8" />
     <title>Title</title>
@@ -34,6 +34,11 @@
       font-size: 18px;
     }
 
+    .mnemonic {
+      color: darkmagenta;
+      font-size: 18px;
+    }
+
     .furigana-table {
       border-collapse: collapse;
       width: 100%;
@@ -44,6 +49,9 @@
       border: 1px solid black;
       padding: 8px;
       text-align: center;
+    }
+    tr td:first-child {
+      padding-top: 1em;
     }
 
     .particle {
@@ -132,7 +140,7 @@
             <ruby>
               <rb>12時</rb>
               <rp>(</rp>
-              <rt>じゅうにじ</rt>
+              <rt>じゅcにじ</rt>
               <rp>)</rp>
             </ruby> </span
           >に<span class="furigana">
@@ -318,6 +326,10 @@
           </ruby>
         </td>
         <td>
+          <span class="example-translation"
+            >Because today is the day off I will travel</span
+          >
+          <br />
           <ruby>
             <rb>今日</rb>
             <rp>(</rp>
@@ -345,10 +357,6 @@
               <rp>)</rp>
             </ruby></span
           >きます
-          <br />
-          <span class="example-translation"
-            >Because today is the day off I will travel</span
-          >
         </td>
       </tr>
       <tr>
@@ -590,7 +598,9 @@
       </tr>
       <tr>
         <td>to return(things)</td>
-        <td>kaesu</td>
+        <td>
+          kaesu <br /><span class="mnemonic">I return(kaesu) your kaiser</span>
+        </td>
         <td>
           <ruby>
             <rb>返す</rb>
@@ -611,7 +621,11 @@
       </tr>
       <tr>
         <td>to borrow</td>
-        <td>kariru</td>
+        <td>
+          kariru<br /><span class="mnemonic"
+            >I borrow curry(kari) to make roux(ru)</span
+          >
+        </td>
         <td>
           <ruby>
             <rb> 借りる</rb>
@@ -621,7 +635,7 @@
           </ruby>
         </td>
       </tr>
-      <td colspan="4">L6 sentences</td>
+      <td colspan="4">L6 ru verbs</td>
       <tr>
         <td rowspan="2">to open</td>
         <td rowspan="2">akeru</td>
@@ -872,6 +886,160 @@
           <span class="example-translation"
             >Can you turn on the air conditioner?</span
           >
+        </td>
+      </tr>
+      <td colspan="4">L6 -u verbs うつる</td>
+      <tr>
+        <td>To take a bath</td>
+        <td>Ofuro ni hairu</td>
+        <td>
+          <ruby>
+            <rb>お風呂</rb>
+            <rp>(</rp>
+            <rt>ふろ</rt>
+            <rp>)</rp> </ruby
+          >に<span class="furigana">
+            <ruby>
+              <rb>入</rb>
+              <rp>(</rp>
+              <rt>はい</rt>
+              <rp>)</rp>
+            </ruby> </span
+          >る
+        </td>
+        <td>
+          <span class="example-sentence">
+            <ruby>
+              <rb>茄子</rb>
+              <rp>(</rp>
+              <rt>なす</rt>
+              <rp>)</rp> </ruby
+            >を<span class="furigana">
+              <ruby>
+                <rb>食</rb>
+                <rp>(</rp>
+                <rt>た</rt>
+                <rp>)</rp>
+              </ruby> </span
+            >べた<span class="furigana">
+              <ruby>
+                <rb>後</rb>
+                <rp>(</rp>
+                <rt>あと</rt>
+                <rp>)</rp>
+              </ruby> </span
+            >、<ruby>
+              <rb>夏</rb>
+              <rp>(</rp>
+              <rt>なつ</rt>
+              <rp>)</rp> </ruby
+            >に<span class="furigana">
+              <ruby>
+                <rb>お風呂</rb>
+                <rp>(</rp>
+                <rt>ふろ</rt>
+                <rp>)</rp>
+              </ruby> </span
+            >に<span class="furigana">
+              <ruby>
+                <rb>入</rb>
+                <rp>(</rp>
+                <rt>はい</rt>
+                <rp>)</rp>
+              </ruby> </span
+            >ってもいいですか？
+          </span>
+          <br />
+          <span class="example-translation"
+            >May I take a bath in the summer after eating eggplant?</span
+          >
+        </td>
+      </tr>
+      <tr>
+        <td>To sit</td>
+        <td>Suwaru</td>
+        <td>
+          <ruby>
+            <rb>座</rb>
+            <rp>(</rp>
+            <rt>すわ</rt>
+            <rp>)</rp> </ruby
+          >る
+        </td>
+        <td>
+          <span class="example-sentence">
+            <ruby>
+              <rb>椅子</rb>
+              <rp>(</rp>
+              <rt>いす</rt>
+              <rp>)</rp> </ruby
+            >に<span class="furigana">
+              <ruby>
+                <rb>座</rb>
+                <rp>(</rp>
+                <rt>すわ</rt>
+                <rp>)</rp>
+              </ruby> </span
+            >ってください。
+          </span>
+          <br />
+          <span class="example-translation">Please sit on the chair.</span>
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="2">To stand</td>
+        <td rowspan="2">Tatsu</td>
+        <td rowspan="2">
+          <ruby>
+            <rb>立</rb>
+            <rp>(</rp>
+            <rt>た</rt>
+            <rp>)</rp> </ruby
+          >つ
+        </td>
+        <td>
+          <span class="example-sentence">たってください。 </span>
+          <br />
+          <span class="example-translation">Please stand up.</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <span class="example-translation">Please help me.</span>
+          <br />
+          <span class="example-sentence">
+            お
+            <ruby>
+              <rb>役</rb>
+              <rp>(</rp>
+              <rt>やく</rt>
+              <rp>)</rp> </ruby
+            >にたってください。
+          </span>
+        </td>
+      </tr>
+      <tr>
+        <td>To use</td>
+        <td>Tsukau</td>
+        <td>
+          <ruby>
+            <rb>使</rb>
+            <rp>(</rp>
+            <rt>つか</rt>
+            <rp>)</rp> </ruby
+          >う
+        </td>
+        <td>
+          <span class="example-sentence">
+            <span class="example-translation">May I use the computer?</span>
+            <br />
+            パソコンを<ruby>
+              <rb>使</rb>
+              <rp>(</rp>
+              <rt>つか</rt>
+              <rp>)</rp> </ruby
+            >ってもいいですか？
+          </span>
         </td>
       </tr>
     </table>
